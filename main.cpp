@@ -38,9 +38,9 @@ int main(void){
 	start_color();
 
 	init_pair(1, COLOR_BLACK, COLOR_RED);   
-    init_pair(2, COLOR_BLACK, COLOR_GREEN); 
+    	init_pair(2, COLOR_BLACK, COLOR_GREEN); 
 
-    attron(COLOR_PAIR(2));
+    	attron(COLOR_PAIR(2));
 	mvaddch(CX, CY,' ');
 	attron(COLOR_PAIR(2));
 
